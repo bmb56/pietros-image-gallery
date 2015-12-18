@@ -1,8 +1,7 @@
 FROM nodesource/jessie:0.12.7
 
 # Create app directory
-# I'll just add app dir as this
-# RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
